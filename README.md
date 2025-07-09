@@ -5,12 +5,19 @@ superuser: jeremy pwd: Admin123
 This week we learn:
 
 ORM
+
 using the Django shell
+
 QuerySet
+
 Bulk Operations
+
 Relationships and Accessors
+
 Complex queries
+
 Annotations
+
 Aggregations
 
 YouTube link to the video:
