@@ -22,6 +22,7 @@ class PostAdmin(admin.ModelAdmin):
     
     list_filter = (
         'status',
+        'topics',
     )
 
 admin.site.register(models.Post, PostAdmin)

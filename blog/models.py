@@ -46,6 +46,10 @@ class Post(models.Model):
         default = DRAFT,
         help_text = 'Set to "published" to make this post publicly visible',
     )
+    topics = models.ManyToManyField(
+        Topic,
+        related_name = 'blog_posts'
+    )
     
     content = models.TextField()
     published = models.DateTimeField(
